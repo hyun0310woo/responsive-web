@@ -1,0 +1,13 @@
+.navbar-container {
+  background-color: white;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar-logo {
+  color: black;
+  font-size: 25px;
+}

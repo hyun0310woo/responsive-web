@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import { FiChevronsDown } from "react-icons/fi";
 import "../App.css"
 import "./Home.css"
@@ -13,7 +14,9 @@ function Home() {
             <p>
                 프론트엔드 개발자의 포트폴리오 사이트입니다.
             </p>
-            <FiChevronsDown className="down-arrow" size="40" color="#fff"/>
+            <Link>
+                <FiChevronsDown className="down-arrow" size="40" color="#fff"/>
+            </Link>
           </section>
         
     )
