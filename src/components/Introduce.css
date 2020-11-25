@@ -1,0 +1,13 @@
+.test {
+  background-color: white;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test > div {
+  margin-top: 300px;
+}
