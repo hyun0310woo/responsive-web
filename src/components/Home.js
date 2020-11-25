@@ -14,7 +14,7 @@ function Home() {
             <p>
                 프론트엔드 개발자의 포트폴리오 사이트입니다.
             </p>
-            <Link>
+            <Link to="/Introduce">
                 <FiChevronsDown className="down-arrow" size="40" color="#fff"/>
             </Link>
           </section>
