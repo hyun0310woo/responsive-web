@@ -32,9 +32,8 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    console.log(scrollPosition)
-    return (
 
+    return (
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className={scrollPosition <= 700 ? "navbar-logo" : "navbar-logo down"} onClick={upScroll}>
@@ -45,8 +44,8 @@ const Navbar = () => {
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className={scrollPosition <= 700 ? "nav-item" : "nav-item down"}>
-                            <Link to="Introduce" className="nav-links" smooth={true} duration={500} onClick={closeMobileMenu}>
-                            INTRODUCE
+                            <Link to="About" className="nav-links" smooth={true} duration={500} onClick={closeMobileMenu}>
+                            ABOUT
                             </Link>
                         </li>
                         <li className={scrollPosition <= 700 ? "nav-item" : "nav-item down"}>

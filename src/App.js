@@ -3,7 +3,7 @@ import  {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import './App.css';
 import Home from './components/Home'
 import Navbar from './components/Navbar';
-import Introduce from "./components/Introduce"
+import About from "./components/About"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -15,7 +15,7 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <Home />
-      <Introduce />
+      <About />
       <Skills />
       <Contact />
       <Footer />

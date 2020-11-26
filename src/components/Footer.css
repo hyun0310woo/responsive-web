@@ -6,13 +6,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .footer-container > div {
-  font-size: 200px;
   height: 25vh;
   display: flex;
   align-items: center;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 960px) {

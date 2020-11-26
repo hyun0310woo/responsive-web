@@ -1,5 +1,5 @@
 .test2 {
-  background-color: white;
+  background-color: blueviolet;
   font-size: 50px;
   font-weight: bold;
   display: flex;
@@ -9,7 +9,6 @@
 }
 
 .test2 > div {
-  font-size: 200px;
   height: 100vh;
   display: flex;
   align-items: center;
