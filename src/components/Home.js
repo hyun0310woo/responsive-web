@@ -14,7 +14,7 @@ function Home() {
             <p>
                 프론트엔드 개발자의 포트폴리오 사이트입니다.
             </p>
-            <Link to="Introduce" smooth={true} duration={1000}>
+            <Link to="Introduce" smooth={true} duration={500}>
                 <FiChevronsDown className="down-arrow" />
             </Link>
           </section>

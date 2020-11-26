@@ -1,6 +1,6 @@
-.test2 {
-  background-color: white;
-  font-size: 50px;
+.footer-container {
+  background-color: #696969;
+  /* font-size: 50px; */
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -8,15 +8,15 @@
   align-items: center;
 }
 
-.test2 > div {
+.footer-container > div {
   font-size: 200px;
-  height: 100vh;
+  height: 25vh;
   display: flex;
   align-items: center;
 }
 
 @media screen and (max-width: 960px) {
-  .test2 > div {
-    font-size: 50px;
+  .footer-container > div {
+    font-size: 20px;
   }
 }

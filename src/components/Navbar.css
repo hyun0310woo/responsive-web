@@ -1,7 +1,5 @@
 .navbar {
-  background-color: white;
-  border-bottom: 2px solid #f2f2f2;
-  height: 60px;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,12 +18,22 @@
 }
 
 .navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-logo.down {
   color: black;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -35,27 +43,32 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 16px;
 }
 
 .nav-item {
   height: 60px;
+  color: #fff;
+}
+
+.nav-item.down {
+  height: 60px;
+  color: black;
 }
 
 .nav-links {
-  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
   height: 100%;
   padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid black;
-  transition: all 0.2s ease-out;
   font-weight: bold;
 }
 
@@ -72,8 +85,20 @@
   }
 
   .menu-icon {
+    color: #fff;
     display: block;
-    font-size: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    position: absolute;
+    transform: translate(-150%, 60%);
+  }
+
+  .menu-icon.down {
+    color: black;
+    display: block;
+    font-size: 30px;
     cursor: pointer;
     top: 0;
     right: 0;
@@ -96,12 +121,14 @@
   .nav-menu.active {
     background: #fff;
     left: 0;
-    opacity: 1;
+    opacity: 0.95;
     transition: all 0.5s ease;
     z-index: 1;
+    display: flex;
   }
 
   .nav-links {
+    color: #242424;
     text-align: center;
     padding: 2rem;
     width: 100%;

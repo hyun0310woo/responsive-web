@@ -1,10 +1,11 @@
 .backgrund-img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: -1;
-  opacity: 0.75;
+  opacity: 0.7;
+  margin-top: -10vh;
 }
 
 .home-container {
@@ -30,18 +31,6 @@
 @media screen and (max-width: 960px) {
   .home-container > h1 {
     font-size: 50px;
-  }
-
-  .home-container > p {
-    color: #fff;
-    font-size: 18px;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home-container > h1 {
-    font-size: 40px;
   }
 
   .home-container > p {
