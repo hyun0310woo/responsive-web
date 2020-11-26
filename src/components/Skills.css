@@ -1,14 +1,15 @@
-.test {
-  background-color: white;
+.test2 {
+  background-color: black;
   font-size: 50px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: whitesmoke;
 }
 
-.test > div {
+.test2 > div {
   font-size: 200px;
   height: 100vh;
   display: flex;
@@ -16,7 +17,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .test > div {
+  .test2 > div {
     font-size: 50px;
   }
 }

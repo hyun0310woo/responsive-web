@@ -1,9 +1,8 @@
-import React, {useState, useEffect} from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import {animateScroll as scroll} from "react-scroll";
+import React, {useState} from 'react'
+import { BrowserRouter as Router, Route,  } from 'react-router-dom';
+import {animateScroll as scroll, Link} from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -32,17 +31,17 @@ const Navbar = () => {
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/Introduce" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="Introduce" className="nav-links" smooth={true} duration={1000} onClick={closeMobileMenu}>
                             INTRODUCE
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Skills" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="Skills" className="nav-links" smooth={true} duration={1000} onClick={closeMobileMenu}>
                                 SKILLS
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Education" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="Education" className="nav-links" smooth={true} duration={1000} onClick={closeMobileMenu}>
                             EDUCATION
                             </Link>
                         </li>

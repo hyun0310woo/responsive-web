@@ -67,6 +67,9 @@ hr {
 }
 
 .down-arrow {
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
   position: absolute;
   bottom: 50px;
   left: 50%;

@@ -4,14 +4,16 @@ import './App.css';
 import Home from './components/Home'
 import Navbar from './components/Navbar';
 import Introduce from "./components/Introduce"
+import Skills from "./components/Skills"
 
 const App = () => {
   return (
-    <Router>
-        <Route path="/" exact component={Home} />
-        <Navbar/>
-        <Introduce />
-    </Router>
+    <div className="App">
+      <Home />
+      <Navbar/>
+      <Introduce />
+      <Skills />
+    </div>
   )
 }
 

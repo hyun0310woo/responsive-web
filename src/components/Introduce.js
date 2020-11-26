@@ -4,7 +4,7 @@ import "./Introduce.css"
 
 function Introduce() {
     return (
-           <section className="test">
+           <section className="test" id="Introduce"> 
                <div>
                    Introduce page
                </div>
