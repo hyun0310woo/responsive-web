@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import {animateScroll as scroll} from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import Home from "./Home"
-import Introduce from "./Introduce"
 
 import "./Navbar.css"
 
@@ -18,10 +17,14 @@ const Navbar = () => {
         setClick(false);
     }
 
+    const upScroll = () => {
+        scroll.scrollToTop()
+    }
+
     return (
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={upScroll}>
                         HW
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
