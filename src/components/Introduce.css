@@ -9,5 +9,14 @@
 }
 
 .test > div {
-  margin-top: 300px;
+  font-size: 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .test > div {
+    font-size: 80px;
+  }
 }

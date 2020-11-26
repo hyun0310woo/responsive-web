@@ -4,39 +4,11 @@ import "./Introduce.css"
 
 function Introduce() {
     return (
-        <Route to="/Introduce">
            <section className="test">
                <div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
-               </div><div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
-               </div><div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
-               </div><div>
-                   navbar test
-               </div>
-               <div>
-                   navbar test
+                   Introduce page
                </div>
            </section>
-        </Route>
-          
-        
     )
 }
 

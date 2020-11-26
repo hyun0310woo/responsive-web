@@ -8,9 +8,9 @@ import Introduce from "./components/Introduce"
 const App = () => {
   return (
     <Router>
-      <Home />
-      <Navbar/>
-      <Introduce />
+        <Route path="/" exact component={Home} />
+        <Navbar/>
+        <Introduce />
     </Router>
   )
 }
