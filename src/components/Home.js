@@ -3,9 +3,13 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <div className="Home-container">
-        Home
-    </div>
+    <section className="Home-container">
+      <div className="container">
+        <div className="text-box">
+          <p>Home</p>
+        </div>
+      </div>
+    </section>
   )
 }
 

@@ -1,14 +1,8 @@
 import React, {useState} from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams
-  } from "react-router-dom";
+import "./Navbar.css"
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -18,22 +12,23 @@ const Navbar = () => {
     }
 
     return(
-    <Router>  
-        <section className="navbar-container">
-            <nav>
-                {/* <h1>portfolio<span>.</span></h1> */}
-                <ul>
-                <div onClick={handleClick}>{click ?  <FaTimes /> : <FaBars/>}</div>
-                    <li>
-                        <Link to="/Home">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/Skills">Skills</Link>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-    </Router>  
+            <section className="navbar">
+                <nav className="navbar-container">
+                    <h1 className="menu-logo">HW</h1>
+                    <div className="menu-icon" onClick={handleClick}>{click ? <FaTimes /> : <FaBars/>}</div>
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-links">HOME</Link>
+                        </li>
+                        <li>
+                            <Link to="/About" className="nav-links">ABOUT</Link>
+                        </li>
+                        <li>
+                            <Link to="/Skills" className="nav-links">SKILLS</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
     )
 }
 

@@ -1,9 +1,16 @@
 .About-container {
-  background-color: blue;
+  background-color: pink;
   height: 100vh;
+  width: 100vw;
   color: white;
   /* text-align: center; */
   justify-content: center;
   align-items: center;
   display: flex;
+  position: absolute;
+  top: 0;
+}
+
+div {
+  display: block;
 }
