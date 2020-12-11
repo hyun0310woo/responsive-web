@@ -1,0 +1,9 @@
+.About-container {
+  background-color: blue;
+  height: 100vh;
+  color: white;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
