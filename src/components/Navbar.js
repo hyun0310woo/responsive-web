@@ -11,6 +11,10 @@ const Navbar = () => {
         setClick(!click)
     }
 
+    const closeMobileMenu = () => {
+        setClick(false);
+    }
+
     return(
             <section className="navbar">
                 <nav className="navbar-container">
@@ -18,13 +22,13 @@ const Navbar = () => {
                     <div className="menu-icon" onClick={handleClick}>{click ? <FaTimes /> : <FaBars/>}</div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links">HOME</Link>
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>HOME</Link>
                         </li>
                         <li>
-                            <Link to="/About" className="nav-links">ABOUT</Link>
+                            <Link to="/About" className="nav-links" onClick={closeMobileMenu}>ABOUT</Link>
                         </li>
                         <li>
-                            <Link to="/Skills" className="nav-links">SKILLS</Link>
+                            <Link to="/Skills" className="nav-links" onClick={closeMobileMenu}>SKILLS</Link>
                         </li>
                     </ul>
                 </nav>
