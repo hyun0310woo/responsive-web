@@ -4,7 +4,7 @@ import "./Skills.css"
 const Skills = () => {
   return (
     <div className="Skills-container">
-        Skills
+        <p>Skills</p>
     </div>
   )
 }
