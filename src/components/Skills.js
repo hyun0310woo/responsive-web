@@ -1,12 +1,14 @@
-import React from 'react';
+import React from 'react'
 import "./Skills.css"
 
 const Skills = () => {
-  return (
-    <div className="Skills-container">
-        <p>Skills</p>
-    </div>
-  )
+    return (
+        <section className="skills-container">
+            <div>
+
+            </div>
+        </section>
+        )
 }
 
 export default Skills

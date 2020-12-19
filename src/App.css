@@ -1,6 +1,19 @@
+:root {
+  /* Color */
+  --color--gray: #d0d0d0;
+  --color--white: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  /* max-width: 1400px; */
+}
+
+.app {
+  /* padding: 0 10%; */
+}
+
+li {
+  list-style: none;
 }
