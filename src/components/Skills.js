@@ -4,8 +4,7 @@ import "./Skills.css"
 const Skills = () => {
     return (
         <section className="skills-container">
-            <div>
-
+            <div className="skills-item">
             </div>
         </section>
         )
