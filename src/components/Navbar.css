@@ -1,22 +1,30 @@
 .navbar-container {
+  position: fixed;
+  top: 0;
   border-bottom: 1px solid var(--color--gray);
-  padding: 0 10%;
-  height: 6vh;
+}
+
+.nav-top-logo {
+  position: fixed;
+  font-family: "Rubik Mono One", sans-serif;
+  color: var(--color--gray);
+  font-size: 30px;
+  transition: 0.5s;
 }
 
 .navbar-items {
-  /* height: 7vh; */
+  height: 6vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-li > span {
+.logo {
   font-size: 30px;
   font-family: "Rubik Mono One", sans-serif;
 }
 
-li:nth-child(2) {
-  color: #898989;
+.item:nth-child(2) {
+  color: gray;
   font-weight: bold;
 }

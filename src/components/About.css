@@ -1,14 +1,16 @@
 .about-container {
   height: 28vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0 10%;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* padding: 0 10%; */
 }
 
 .about-info {
   display: flex;
-  /* margin-left: 50px; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-info > img {
@@ -17,4 +19,21 @@
 
 .user-info {
   margin-left: 50px;
+}
+
+.user-name {
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.icon2 {
+  font-size: 30px;
 }

@@ -1,36 +1,25 @@
 import React from 'react'
+import { GoMarkGithub } from "react-icons/go";
+import { RiSmartphoneLine } from "react-icons/ri";
+import { FaBloggerB } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 import "./About.css"
 
 const About = () => {
     return(
         <section className="about-container">
             <div className="about-info">
-                <img src="images/ImgTest.jpg" width="250px" height="250px" />
+                <img src="images/ImgTest.jpg" width="200px" height="200px" />
                 <div className="user-info">
                     <div>
-                        Kim Hyun Woo
+                        <div className="user-name">Kim Hyun Woo</div>
+                        <div><RiSmartphoneLine className="icon"/> 010 1234 1234</div>
+                        <div><AiOutlineMail className="icon" /> hyun0301woo212@gmail.com</div>
                     </div>
-                    <div>
-                        <ul>
-                            <li>
-                                깃헙
-                            </li>
-                        </ul>
+                    <div className="icons">
+                        <div><GoMarkGithub className="icon2"/></div>
+                        <div><FaBloggerB className="icon2"/></div>
                     </div>
-                </div>
-            </div>
-
-
-
-            <div>
-                <div>
-                    I'm Web Developer
-                </div>
-                <div>
-                    ㅇㅁㄴㅇㅁㄴ이ㅏㅁ너ㅣㅏ엄니ㅏ어
-                </div>
-                <div>
-                    ㅋ튜ㅡㅟㅏㅓㄻ니ㅏㅣㅏㄴ
                 </div>
             </div>
         </section>
