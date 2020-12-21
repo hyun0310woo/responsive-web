@@ -11,7 +11,7 @@
 }
 
 .app {
-  /* padding: 0 10%; */
+  min-width: 580px;
 }
 
 li {
