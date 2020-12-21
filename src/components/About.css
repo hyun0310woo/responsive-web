@@ -1,9 +1,14 @@
 .about-container {
-  /* margin-top: 150px; */
-  padding: 0 15%;
-  padding-top: 10%;
+  height: 100vh;
+  position: relative;
 }
 
 .about-info {
   display: flex;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
