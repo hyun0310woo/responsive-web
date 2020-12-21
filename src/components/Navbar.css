@@ -1,34 +1,51 @@
 .navbar-container {
   position: fixed;
-  transition: 0.7s;
   left: 0%;
   right: 0%;
-  /* padding: 0 15%; */
+  padding: 0 10%;
+  transition: 1s;
+  z-index: 999;
 }
 
 .nav-top-logo {
   display: flex;
   justify-content: center;
   font-size: 50px;
-  margin: 10px 0px;
-  font-family: "Rubik Mono One", sans-serif;
-  color: #0079bd;
-  /* background-color: #bde7ff; */
-  min-width: 580px;
+  font-family: "Raleway", sans-serif;
+  color: #386aa5;
+  margin: 10px auto;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-auto-rows: auto;
+  text-align: center;
+  align-items: center;
+  margin: 20px 10%;
+  font-size: 17px;
+  color: gray;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+.nav-item:hover {
+  font-weight: bold;
 }
 
 .logo {
-  font-family: "Rubik Mono One", sans-serif;
-  color: #0079bd;
-  font-size: 30px;
+  color: #386aa5;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.navbar-items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 1em;
-  align-items: center;
-  text-align: center;
-  transition: 0.5s;
+@media screen and (max-width: 767px) {
+  .nav-top-logo {
+    font-size: 25px;
+    margin: 30px auto;
+    /* margin-bottom: 20px; */
+  }
 }

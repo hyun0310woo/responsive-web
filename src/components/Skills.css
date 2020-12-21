@@ -1,21 +1,5 @@
 .skills-container {
-  height: 53vh;
-  background-color: #f2f2f2;
+  height: 70vh;
   padding: 0;
-}
-
-.skills-item {
-  margin: 0 10%;
-}
-
-.skills-item > ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills-item > ul > li {
-  width: 280px;
-  height: 400px;
-  background-color: blueviolet;
+  background: #dedede;
 }
