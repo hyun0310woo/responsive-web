@@ -1,10 +1,10 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: flex-end;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: left; */
+  /* align-items: flex-end; */
   height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 input[id="menuicon"] {
@@ -15,8 +15,16 @@ input[id="menuicon"] + label {
   display: block;
   width: 60px;
   height: 40px;
-  position: relative;
+  position: fixed;
+  right: 0;
+  top: calc(50% - 25px);
+  transition: all 0.35s;
   cursor: pointer;
+}
+
+input[id="menuicon"]:checked + label {
+  z-index: 2;
+  right: 300px;
 }
 
 input[id="menuicon"] + label span {
@@ -62,11 +70,11 @@ div[class="sidebar"] {
   background: #222;
   position: fixed;
   top: 0;
-  left: -300px;
+  right: -300px;
   z-index: 1;
   transition: all 0.35s;
 }
 
 input[id="menuicon"]:checked + label + div {
-  left: 0;
+  right: 0;
 }
