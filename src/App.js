@@ -1,10 +1,11 @@
 import React from 'react';
+import Project1 from "./components/Animation-transition/Project1"
 import "./App.css"
 
 const App = () => {
   return (
     <div className="app">
-        reset
+      <Project1/>    
     </div>
   )
 }
