@@ -1,15 +1,13 @@
-:root {
-  /*Font Color */
-  --color--light--gray: #d0d0d0;
-  --color--white: #fff;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-li {
-  list-style: none;
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
 }
