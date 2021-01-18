@@ -46,7 +46,7 @@
   letter-spacing: 8px;
   font-size: 4em;
   text-transform: uppercase;
-  animation: typing 7s steps(20) infinite;
+  animation: typing 7s steps(15) infinite;
   overflow: hidden;
 }
 
