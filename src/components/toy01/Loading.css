@@ -23,7 +23,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 2px;
+  width: 3px;
   height: 100%;
   background: #03e9f4;
   animation: blinkCursor 1s steps(3) infinite;
