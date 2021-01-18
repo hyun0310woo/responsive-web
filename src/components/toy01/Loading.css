@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: consolas;
+  font-family: "Roboto", sans-serif;
 }
 
 .app {
@@ -26,7 +26,7 @@
   width: 2px;
   height: 100%;
   background: #03e9f4;
-  animation: blinkCursor 0.8s steps(3) infinite;
+  animation: blinkCursor 1s steps(3) infinite;
 }
 
 @keyframes blinkCursor {
@@ -58,6 +58,6 @@
   }
   30%,
   60% {
-    width: 342.47px;
+    width: 427.14px;
   }
 }
