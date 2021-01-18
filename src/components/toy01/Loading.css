@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #121213;
+  /* background: #121213; */
 }
 
 .loader {
@@ -25,7 +25,7 @@
   right: 0;
   width: 3px;
   height: 100%;
-  background: #03e9f4;
+  background: #121213;
   animation: blinkCursor 1s steps(3) infinite;
 }
 
@@ -42,7 +42,7 @@
 
 .loader h2 {
   position: relative;
-  color: #03e9f4;
+  color: #121213;
   letter-spacing: 8px;
   font-size: 4em;
   text-transform: uppercase;
