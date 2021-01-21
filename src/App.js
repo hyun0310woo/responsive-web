@@ -5,13 +5,14 @@ import React from 'react';
 // import Project4 from "./components/transition4/Project4"
 // import Project5 from "./components/transition5/Project5"
 // import Project6 from "./components/transition6/Project6"
-import Loading from "./components/toy01/Loading"
+// import Loading from "./components/toy01/Loading"
+import Toy02 from "./components/toy02/Toy02"
 import "./App.css"
 
 const App = () => {
   return (
     <div className="app">
-      <Loading />    
+      <Toy02 />    
     </div>
   )
 }
