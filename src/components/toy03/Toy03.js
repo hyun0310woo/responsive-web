@@ -3,7 +3,16 @@ import "./Toy03.css"
 
 const Toy03 = () => {
   return (
-    <div>toy03</div>
+    <div className="container">
+      <div className="loader one">
+        <span></span>
+        <span></span>
+      </div>
+      <div className="loader two">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
   )
 }
 
