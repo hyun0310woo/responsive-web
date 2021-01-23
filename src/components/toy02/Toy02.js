@@ -10,9 +10,6 @@ const Toy02 = () => {
 
     return (
       <div id="container">
-        {/* <label>
-          <input type="radio" name="btn" ></input>
-        </label> */}
         <label>
           <input onClick={handleClick} type="radio" name="btn" checked={onClick}></input>
         </label>
