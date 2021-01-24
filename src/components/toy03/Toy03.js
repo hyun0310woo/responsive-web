@@ -4,7 +4,9 @@ import "./Toy03.css"
 const Toy03 = () => {
   return (
     <div className="wrap">
-      <section></section>
+      <section>
+        
+      </section>
     </div>
   )
 }
