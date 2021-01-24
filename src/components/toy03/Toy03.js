@@ -5,7 +5,9 @@ const Toy03 = () => {
   return (
     <div className="wrap">
       <section>
-        
+        <div className="color"></div>
+        <div className="color"></div>
+        <div className="color"></div>
       </section>
     </div>
   )
