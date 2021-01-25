@@ -6,14 +6,15 @@ import React from 'react';
 // import Project5 from "./components/transition5/Project5"
 // import Project6 from "./components/transition6/Project6"
 // import Loading from "./components/toy01/Loading"
-import Toy02 from "./components/toy02/Toy02"
-import Toy03 from "./components/toy03/Toy03"
+// import Toy02 from "./components/toy02/Toy02"
+// import Toy03 from "./components/toy03/Toy03"
+ import Toy04 from "./components/toy04/Toy04"
 import "./App.css"
 
 const App = () => {
   return (
     <div className="app">
-      <Toy03 />    
+      <Toy04 />    
     </div>
   )
 }
