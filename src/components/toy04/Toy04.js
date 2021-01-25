@@ -7,9 +7,6 @@ const Toy04 = () => {
     popup.classList.toggle("active")
   }
 
-  const popupCloseToggle = () => {
-    
-  }
   return(
     <div>
       <a className="btn" onClick={popupToggle}>Subscribe Us</a>
@@ -28,7 +25,7 @@ const Toy04 = () => {
             <input type="submit" value="Sign Up" className="btn"></input>
           </div>
         </div>
-        <a className="close"><span>X</span></a>
+        <a className="close" onClick={popupToggle}><span>X</span></a>
       </div>
     </div>
   )
