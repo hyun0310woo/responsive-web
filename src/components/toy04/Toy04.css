@@ -35,7 +35,7 @@ body {
 #popup {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: -100%;
   transform: translate(-50%, -50%);
   z-index: 1000;
   background: #fff;
@@ -43,6 +43,12 @@ body {
   padding: 80px 50px 50px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0, 0.08);
   transition: 0.5s;
+  visibility: hidden;
+}
+
+#popup.active {
+  visibility: visible;
+  left: 50%;
 }
 
 .content {
@@ -56,4 +62,44 @@ body {
 
 h2 {
   font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  outline: none;
+  font-size: 18px;
+}
+
+.inputBox input[type="submit"] {
+  max-width: 150px;
+  background: #03a9f4;
+  color: #fff;
+  border: none;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
 }
