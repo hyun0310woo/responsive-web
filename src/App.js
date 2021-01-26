@@ -8,13 +8,14 @@ import React from 'react';
 // import Loading from "./components/toy01/Loading"
 // import Toy02 from "./components/toy02/Toy02"
 // import Toy03 from "./components/toy03/Toy03"
- import Toy04 from "./components/toy04/Toy04"
+//  import Toy04 from "./components/toy04/Toy04"
+ import Toy05 from "./components/toy05/Toy05"
 import "./App.css"
 
 const App = () => {
   return (
     <div className="app">
-      <Toy04 />    
+      <Toy05 />    
     </div>
   )
 }
