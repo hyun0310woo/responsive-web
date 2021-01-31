@@ -10,6 +10,19 @@
 
 header {
   background: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_logo {
+  background: blue;
+  width: 1200px;
+  height: 80px;
+}
+
+.header_logo h1 {
+  font-size: 35px;
+  text-align: center;
 }
 
 nav {
