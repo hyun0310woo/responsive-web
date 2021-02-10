@@ -2,10 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* background: #1F2328 */
+  background: #333;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 #back {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("back1.png");
+
+  background-image: url("portfolio.png");
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
