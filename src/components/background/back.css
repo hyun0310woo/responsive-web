@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   background: #639CE2;
+  transition: .5s;
+
 }
 
 
@@ -28,4 +30,15 @@
   color: #fff;
   font-size: 50px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  #back {
+    height: 200px;
+    width: 200px;
+  }
+
+  .sub1 {
+    font-size: 30px;
+  }
 }
