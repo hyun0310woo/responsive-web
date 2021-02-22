@@ -18,7 +18,7 @@
   width: 400px;
   background-size: cover;
   position: absolute;
-  bottom: 0;
+  bottom: 150px;
   right: 0;
 }
 
@@ -30,6 +30,14 @@
   color: #fff;
   font-size: 50px;
   text-transform: uppercase;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background: blueviolet;
 }
 
 @media only screen and (max-width: 600px) {
